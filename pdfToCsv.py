@@ -96,4 +96,5 @@ def pdf_to_transformed_xlsx(pdf_path, output_xlsx):
 		os.remove(temp_xlsx)
 
 # Example usage:
-pdf_to_transformed_xlsx("D:/Personal Ambitions/Toggl/files/TogglTrack_Report_Detailed_report__from_08_28_2025_to_11_04_2025_.pdf", "final_transformed.xlsx")
+pdf_to_transformed_xlsx("files\\input\\TogglTrack_Report_Detailed_report__from_08_28_2025_to_11_04_2025_.pdf", 
+						"files\\output\\final_transformed.xlsx")
